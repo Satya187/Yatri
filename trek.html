@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trek - My Blog</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+<!-- Include header -->
+<div id="header"></div>
+<script>
+    // Include header from external file
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('header').innerHTML = data;
+        })
+        .catch(error => console.error('Error fetching header:', error));
+</script>
+
+    <!-- Page Content -->
+    <div class="container mt-5">
+        <h1>Trek</h1>
+        <p>Welcome to the Trek page. Explore the beauty of Trekking here.</p>
+        
+        <!-- Content for Adi Kailash -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h2>Adi Kailash, Uttarakhand</h2>
+                <p>Adi Kailash, also known as Chhota Kailash, is a sacred mountain located in the Indian state of Uttarakhand. It is considered a holy pilgrimage site for devotees of Lord Shiva.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="Images/Adi Kailash.jpeg" alt="Adi Kailash" class="img-fluid">
+            </div>
+        </div>
+
+        <!-- Content for Kinnaur Kailash -->
+        <div class="row mt-4">
+            <div class="col-md-6 order-md-2">
+                <h2>Kinnaur Kailash, Himachal Pradesh</h2>
+                <p>Kinnaur Kailash is a mountain in the Kinnaur district of Himachal Pradesh, India. It is revered by both Hindu and Buddhist communities and is known for its breathtaking views and challenging trekking routes.</p>
+            </div>
+            <div class="col-md-6 order-md-1">
+                <img src="Images/Kinnaur Kailash.webp" alt="Kinnaur Kailash" class="img-fluid">
+            </div>
+        </div>
+
+        <!-- Content for Srikhand Kailash -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h2>Srikhand Kailash, Himachal Pradesh</h2>
+                <p>Srikhand Kailash is a mountain peak located in the Indian state of Himachal Pradesh. It is considered a sacred pilgrimage site for Hindus and is known for its challenging trekking trails and stunning natural beauty.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="Images/Srikhand Kailash.webp" alt="Srikhand Kailash" class="img-fluid">
+            </div>
+        </div>
+
+        <!-- Content for Chamba Kailash -->
+        <div class="row mt-4">
+            <div class="col-md-6 order-md-2">
+                <h2>Chamba Kailash, Himachal Pradesh</h2>
+                <p>Chamba Kailash is a mountain peak located in the Chamba district of Himachal Pradesh, India. It is revered by devotees and trekkers alike for its spiritual significance and stunning landscapes.</p>
+            </div>
+            <div class="col-md-6 order-md-1">
+                <img src="Images/Chamba Kailash.JPG" alt="Chamba Kailash" class="img-fluid">
+            </div>
+        </div>
+
+        <!-- Content for Chembra Peak, Kerala -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h2>Chembra Peak, Kerala</h2>
+                <p>Chembra Peak is the highest peak in the Wayanad district of Kerala, India. It offers breathtaking views of the surrounding hills and is a popular destination for trekking enthusiasts.</p>
+            </div>
+            <div class="col-md-6 order-md-1">
+                <img src="Images/Chembra Peak, Kerala.jpg" alt="Chembra Peak, Kerala" class="img-fluid">
+            </div>
+        </div>
+
+        <!-- Content for Deoria Tal and Chandrashila Trek, Uttarakhand -->
+        <div class="row mt-4">
+            <div class="col-md-6 order-md-2">
+                <h2>Deoria Tal and Chandrashila Trek, Uttarakhand</h2>
+                <p>The Deoria Tal and Chandrashila Trek is a popular trekking route in Uttarakhand, India. It offers stunning views of the Himalayas and includes a visit to the beautiful Deoria Tal lake and the summit of Chandrashila Peak.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="Images/Deoria Tal and Chandrashila Trek, Uttarakhand.jpg" alt="Deoria Tal and Chandrashila Trek, Uttarakhand" class="img-fluid">
+            </div>
+        </div>
+
+        <!-- Content for Goecha La Trek, Sikkim -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h2>Goecha La Trek, Sikkim</h2>
+                <p>The Goecha La Trek is a challenging trekking route in the Indian state of Sikkim. It offers panoramic views of the Himalayan peaks, including the majestic Kanchenjunga, the third highest mountain in the world.</p>
+            </div>
+            <div class="col-md-6 order-md-1">
+                <img src="Images/Goecha La Trek, Sikkim.jpg" alt="Goecha La Trek, Sikkim" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+<!-- Footer -->
+<footer class="footer mt-auto py-3 bg-light">
+    <div class="container text-center">
+        <span class="text-muted">Yatri &copy; 2024</span>
+    </div>
+</footer>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

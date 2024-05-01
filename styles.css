@@ -1,0 +1,252 @@
+/* Custom CSS Styles */
+
+body {
+    padding-top: 4.5rem;
+}
+
+.card {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.card-footer {
+    font-size: .875rem;
+}
+
+.pagination {
+    margin-top: 1rem;
+}
+
+/* Additional Styles */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    border-radius: 0;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+/* Custom CSS Styles */
+
+body {
+    padding-top: 4.5rem;
+}
+
+.card {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.card-footer {
+    font-size: .875rem;
+}
+
+.pagination {
+    margin-top: 1rem;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #d2d2d2; /* Cement color */
+}
+
+/* Additional Styles */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    border-radius: 0;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel {
+    width: 1000px; /* Adjust as needed */
+    height: 500px; /* Adjust as needed */
+    margin: auto;
+}
+.carousel-inner {
+    height: 100%;
+}
+.carousel-item {
+    height: 100%;
+}
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+/* Custom CSS for shadow boxes */
+.shadow-box {
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.shadow-box:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Custom CSS for the video container */
+#video-container {
+    position: relative;
+    width: 100%;
+    height: 15cm; /* Adjust height as needed */
+    overflow: hidden;
+}
+
+#myVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%) grayscale(30%);
+}
+
+#video-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#video-text h2 {
+    font-weight: bold;
+    font-family: Calibri, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Shadow Box Styles */
+.shadow-box {
+    position: relative;
+    width: 300px; /* Fixed width */
+    height: 200px; /* Fixed height */
+    overflow: hidden;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.shadow-box img {
+    display: block;
+    max-width: 100%; /* Limit image width to a maximum of 100% */
+    max-height: 100%; /* Limit image height to a maximum of 100% */
+    width: 100cm;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.shadow-box:hover img {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+/* Image Details */
+.image-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    padding: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    transition: opacity 0.3s ease;
+    opacity: 0; /* Initially hidden */
+}
+
+.shadow-box:hover .image-details {
+    opacity: 1; /* Show details on hover */
+}
+
+.image-details h3,
+.image-details p {
+    margin: 0;
+}
+
+
+.shadow-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px; /* Fixed width */
+    height: 200px; /* Fixed height */
+    border: 1px solid #ddd; /* Optional: Add border */
+    border-radius: 10px; /* Optional: Add border radius */
+    margin: 20px auto; /* Center the boxes horizontally and provide top and bottom margin */
+    padding: 20px; /* Optional: Add padding */
+    text-align: center; /* Center text */
+}
+
+.shadow-box h3 {
+    margin-bottom: 10px; /* Optional: Add margin below heading */
+}
+
+.shadow-box p {
+    margin-bottom: 15px; /* Optional: Add margin below paragraph */
+}
+
+

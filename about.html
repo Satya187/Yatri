@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Yatri</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="header"></div>
+<script>
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('header').innerHTML = data;
+        })
+        .catch(error => console.error('Error fetching header:', error));
+</script>
+
+<section class="about-section py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mb-4">
+                <h2 class="section-title mb-4">About Yatri</h2>
+                <p class="text-muted">Yatri is a platform dedicated to providing seamless travel experiences. Our mission is to connect travelers with unique destinations and experiences around the world.</p>
+                <p class="text-muted">With Yatri, you can discover hidden gems, plan your itinerary, and book accommodations and activities all in one place. Whether you're a seasoned traveler or embarking on your first adventure, Yatri is here to make your journey unforgettable.</p>
+            </div>
+            <div class="col-lg-6">
+                <div class="card border-0">
+                    <img src="/Images/About.jpg" class="card-img-top" alt="About Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Our Vision</h5>
+                        <p class="card-text">To inspire and empower travelers to explore the world with confidence and curiosity, fostering a deeper understanding and appreciation of diverse cultures and landscapes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">Yatri &copy; 2024</span>
+        </div>
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

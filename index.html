@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yatri</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Include header -->
+<div id="header"></div>
+<script>
+    // Include header from external file
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('header').innerHTML = data;
+        })
+        .catch(error => console.error('Error fetching header:', error));
+</script>
+
+<!-- Video Background with Text Overlay -->
+<div id="video-container">
+    <video autoplay muted loop id="myVideo">
+        <source src="/Images/Background.mp4" type="video/mp4">
+    </video>
+    <div id="video-text">
+        <h2>Explore. Dream. Discover.</h2>
+    </div>
+</div>
+
+<!-- Page Content -->
+<div class="container mt-5">
+    <div class="text-center">
+        <h1>Welcome to Yatri</h1>
+
+        <p>India, with its rich cultural heritage and diverse landscapes, is home to some of the most breathtaking tourist destinations in the world. From the snow-capped peaks of the Himalayas to the pristine beaches of Goa, 
+            and from the lush greenery of Kerala's backwaters to the vibrant cities like Jaipur and Varanasi, the country offers a kaleidoscope of experiences for travelers. 
+            Despite this wealth of natural beauty and historical significance, many of India's tourist destinations remain underrated and undiscovered by the global travel community.</p>
+        
+            <p>One of the charms of exploring India's lesser-known tourist spots is the opportunity to immerse oneself in the authentic local culture and traditions. 
+                Away from the bustling crowds of popular tourist hubs, these hidden gems offer a glimpse into the heart and soul of India. Whether it's exploring the ancient temples of Khajuraho, wandering through the tea gardens of Darjeeling, 
+                or witnessing the breathtaking sunrise over the Nubra Valley in Ladakh, each destination has its own unique story to tell, waiting to be discovered by intrepid travelers.</p>
+        
+                <p>Moreover, traveling to underrated Indian tourist places not only provides an opportunity for a more authentic travel experience but also helps in supporting local communities and promoting sustainable tourism. 
+                    By venturing off the beaten path and exploring lesser-known destinations, travelers can contribute to the economic development of remote regions and preserve their cultural heritage for future generations. 
+                    In doing so, they not only enrich their own travel experiences but also make a positive impact on the lives of the people they encounter along the way.</p>
+
+    </div>
+
+<!-- Below the Page Content -->
+<div class="container mt-5">
+    <!-- Your existing content -->
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- First Image -->
+        <div class="col-md-4">
+            <div class="shadow-box">
+                <img src="Images/DELHI.jpg" alt="Zoom Image 1">
+                <div class="image-details">
+                    <h3>Delhi</h3>
+                    <p>Vibrant capital blending history, culture, and modernity seamlessly.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Image -->
+        <div class="col-md-4">
+            <div class="shadow-box">
+                <img src="Images/JAIPUR.jpg" alt="Zoom Image 2">
+                <div class="image-details">
+                    <h3>Jaipur</h3>
+                    <p>Vibrant city of palaces, forts, and rich cultural heritage.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Third Image -->
+        <div class="col-md-4">
+            <div class="shadow-box">
+                <img src="Images/AGRA.jpg" alt="Zoom Image 3">
+                <div class="image-details">
+                    <h3>Agra</h3>
+                    <p>Home to the iconic Taj Mahal and rich Mughal history.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fourth Image -->
+        <div class="col-md-4">
+            <div class="shadow-box">
+                <img src="Images/CHARMINAR.png" alt="Zoom Image 4">
+                <div class="image-details">
+                    <h3>Hyderabad</h3>
+                    <p>Historic city, known for biryani, pearls, and iconic Charminar.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fifth Image -->
+        <div class="col-md-4">
+            <div class="shadow-box">
+                <img src="Images/CHENNAI.jpg" alt="Zoom Image 5">
+                <div class="image-details">
+                    <h3>Chennai</h3>
+                    <p>Vibrant city with rich culture, beaches, and historic landmarks.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sixth Image -->
+        <div class="col-md-4">
+            <div class="shadow-box">
+                <img src="Images/BANGLORE.webp" alt="Zoom Image 6">
+                <div class="image-details">
+                    <h3>Bangalore</h3>
+                    <p>Vibrant tech hub with green spaces, cultural diversity, and innovation.</p>
+                </div>
+            </div>
+        </div>
+
+    <div class="col-md-4">
+        <div class="shadow-box">
+            <img src="Images/KERALA.jpg" alt="Kerala">
+            <div class="image-details">
+                <h3>Kerala</h3>
+                <p>Lush, serene, backwaters, tea gardens, vibrant culture, heavenly cuisine./p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Eighth Image -->
+    <div class="col-md-4">
+        <div class="shadow-box">
+            <img src="Images/MUMBAI.jpg" alt="Mumbai">
+            <div class="image-details">
+                <h3>Mumbai</h3>
+                <p>Bustling metropolis, rich culture, vibrant nightlife, coastal charm.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ninth Image -->
+    <div class="col-md-4">
+        <div class="shadow-box">
+            <img src="Images/GOA.jpg" alt="Goa">
+            <div class="image-details">
+                <h3>Goa</h3>
+                <p>Pristine beaches, vibrant culture, and lively nightlife blend seamlessly.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Below the Page Content -->
+<div class="container mt-5">
+    <!-- Your existing content -->
+</div>
+
+<!-- Carousel -->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="Images/slide1.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="Images/slide2.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="Images/slide3.jpg" alt="Third slide">
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer mt-auto py-3 bg-light">
+    <div class="container text-center">
+        <span class="text-muted">Yatri &copy; 2024</span>
+    </div>
+</footer>
+
+<!-- Bootstrap JS and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    // JavaScript to make the carousel continuous
+    $('.carousel').carousel({
+        interval: 2000, // Change slide every 2 seconds
+        pause: false // Keep cycling even if the user interacts with the carousel
+    });
+</script>
+
+</body>
+</html>

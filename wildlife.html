@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife - My Blog</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+<!-- Include header -->
+<div id="header"></div>
+<script>
+    // Include header from external file
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('header').innerHTML = data;
+        })
+        .catch(error => console.error('Error fetching header:', error));
+</script>
+
+    <!-- Page Content -->
+    <div class="container mt-5">
+        <h1>Wildlife</h1>
+        <p>Welcome to the Wildlife page. Explore the beauty of Wildlife here.</p>
+
+        <!-- Content for Nagarahole National Park, Karnataka -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h2>Nagarahole National Park, Karnataka</h2>
+                <p>Nagarahole National Park, also known as Rajiv Gandhi National Park, is a beautiful wildlife reserve known for its rich biodiversity, including tigers, elephants, and diverse bird species.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="Images/Nagarhole.jpg" alt="Nagarahole National Park, Karnataka" class="img-fluid">
+            </div>
+        </div>
+
+        <!-- Content for Kaziranga National Park, Assam -->
+        <div class="row mt-4">
+            <div class="col-md-6 order-md-2">
+                <h2>Kaziranga National Park, Assam</h2>
+                <p>Kaziranga National Park is a UNESCO World Heritage Site and one of the last remaining habitats of the Indian one-horned rhinoceros. It is also home to tigers, elephants, and various bird species.</p>
+            </div>
+            <div class="col-md-6 order-md-1">
+                <img src="Images/Kaziranga-National-Park.jpg" alt="Kaziranga National Park, Assam" class="img-fluid">
+            </div>
+        </div>
+
+        <!-- Content for Keoladeo National Park, Rajasthan -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h2>Keoladeo National Park, Rajasthan</h2>
+                <p>Formerly known as Bharatpur Bird Sanctuary, Keoladeo National Park is a paradise for birdwatchers, with over 370 bird species recorded. It is also home to various mammals, reptiles, and amphibians.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="Images/Keoladeo National Park, Rajasthan.jpg" alt="Keoladeo National Park, Rajasthan" class="img-fluid">
+            </div>
+        </div>
+
+        <!-- Content for Satpura National Park, Madhya Pradesh -->
+        <div class="row mt-4">
+            <div class="col-md-6 order-md-2">
+                <h2>Satpura National Park, Madhya Pradesh</h2>
+                <p>Satpura National Park is known for its diverse wildlife and scenic beauty, offering opportunities for wildlife safaris, trekking, and boating. It is home to tigers, leopards, sloth bears, and many other species.</p>
+            </div>
+            <div class="col-md-6 order-md-1">
+                <img src="Images/Satpura National Park, Madhya Pradesh.jpg" alt="Satpura National Park, Madhya Pradesh" class="img-fluid">
+            </div>
+        </div>
+
+        <!-- Content for Hemis National Park, Jammu and Kashmir -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h2>Hemis National Park, Jammu and Kashmir</h2>
+                <p>Hemis National Park is the largest national park in India and a high-altitude park that provides habitat to several endangered species, including the snow leopard. It is also home to various bird species and rare flora.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="Images/Hemis National Park, Jammu and Kashmir.jpg" alt="Hemis National Park, Jammu and Kashmir" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">Yatri &copy; 2024</span>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountains - My Blog</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Include header -->
+<div id="header"></div>
+<script>
+    // Include header from external file
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('header').innerHTML = data;
+        })
+        .catch(error => console.error('Error fetching header:', error));
+</script>
+<!-- Page Content -->
+<div class="container mt-5">
+
+
+    <!-- Content for The Himalayan Ranges -->
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <h2>The Himalayan Ranges</h2>
+            <p>The Himalayas are the highest and youngest mountain range in the world. They span five countries: India, Nepal, Bhutan, China, and Pakistan.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="Images/himalayas.jpg" alt="The Himalayan Ranges" class="img-fluid">
+        </div>
+    </div>
+
+    <!-- Content for The Ladakh Ghats -->
+    <div class="row mt-4">
+        <div class="col-md-6 order-md-2">
+            <h2>The Ladakh Ghats</h2>
+            <p>Ladakh, known as the "Land of High Passes," is famous for its stunning landscapes and rugged mountain ranges.</p>
+        </div>
+        <div class="col-md-6 order-md-1">
+            <img src="Images/Ladakh.jpg" alt="The Ladakh Ghats" class="img-fluid">
+        </div>
+    </div>
+
+    <!-- Content for The Western Ghats -->
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <h2>The Western Ghats</h2>
+            <p>The Western Ghats, also known as the Sahyadri Mountains, are a UNESCO World Heritage Site and are one of the eight hottest hotspots of biological diversity in the world.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="Images/Western Ghats.jpg" alt="The Western Ghats" class="img-fluid">
+        </div>
+    </div>
+
+    <!-- Content for The Aravali Hills -->
+    <div class="row mt-4">
+        <div class="col-md-6 order-md-2">
+            <h2>The Aravali Hills</h2>
+            <p>The Aravali Range is a range of mountains in western India running approximately 800 km in a northeastern direction across Indian states of Gujarat, Rajasthan, and Haryana, ending in the Delhi Ridge.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="Images/Aravali.webp" alt="The Aravali Hills" class="img-fluid">
+        </div>
+    </div>
+
+    <!-- Content for The Vindhya Range -->
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <h2>The Vindhya Range</h2>
+            <p>The Vindhya Range is a complex, discontinuous chain of mountain ridges, hill ranges, highlands, and plateau escarpments in west-central India.</p>
+        </div>
+        <div class="col-md-6 order-md-1">
+            <img src="Images/Vindhya.jpg" alt="The Vindhya Range" class="img-fluid">
+        </div>
+    </div>
+
+    <!-- Content for The Satpura Range -->
+    <div class="row mt-4">
+        <div class="col-md-6 order-md-2">
+            <h2>The Satpura Range</h2>
+            <p>The Satpura Range is a range of hills in central India. The range rises in eastern Gujarat state running east through the border of Maharashtra and Madhya Pradesh to the east till Chhattisgarh.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="Images/Satpura.jpg" alt="The Satpura Range" class="img-fluid">
+        </div>
+    </div>
+
+    <!-- Content for The Karakoram Range -->
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <h2>The Karakoram Range</h2>
+            <p>The Karakoram Range is a large mountain range spanning the borders between Pakistan, India, and China, located in the regions of Gilgit-Baltistan (Pakistan), Ladakh (India), and Xinjiang (China).</p>
+        </div>
+        <div class="col-md-6 order-md-1">
+            <img src="Images/Karakoram.jpg" alt="The Karakoram Range" class="img-fluid">
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer mt-auto py-3 bg-light">
+    <div class="container text-center">
+        <span class="text-muted">Yatri &copy; 2024</span>
+    </div>
+</footer>
+
+<!-- Bootstrap JS and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

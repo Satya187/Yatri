@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deserts - My Blog</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+<!-- Include header -->
+<div id="header"></div>
+<script>
+    // Include header from external file
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('header').innerHTML = data;
+        })
+        .catch(error => console.error('Error fetching header:', error));
+</script>
+
+    <!-- Page Content -->
+    <div class="container mt-5">
+        <h1>Deserts</h1>
+        <p>Welcome to the Deserts page. Discover the beauty and solitude of vast deserts.</p>
+
+        <!-- Content for Thar Desert, Rajasthan -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h2>Thar Desert, Rajasthan</h2>
+                <p>The Thar Desert, also known as the Great Indian Desert, is a large arid region in the northwestern part of India and southeastern Pakistan. It is the world's 17th largest desert, and Rajasthan is the most prominent state with a major portion of the desert within its territory.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="Images/Thar Desert, Rajasthan.webp" alt="Thar Desert, Rajasthan" class="img-fluid">
+            </div>
+        </div>
+
+        <!-- Content for Rann of Kutch, Gujarat -->
+        <div class="row mt-4">
+            <div class="col-md-6 order-md-2">
+                <h2>Rann of Kutch, Gujarat</h2>
+                <p>The Rann of Kutch is a large salt marsh located in the Thar Desert in the Kutch district of Gujarat, India, and the Sindh province of Pakistan. It is famous for its white salt desert, the Great Rann of Kutch, which becomes an ethereal landscape during the Rann Utsav festival.</p>
+            </div>
+            <div class="col-md-6 order-md-1">
+                <img src="Images/Rann of Kutch, Gujarat.jpg" alt="Rann of Kutch, Gujarat" class="img-fluid">
+            </div>
+        </div>
+
+        <!-- Content for Spiti Valley, Himachal Pradesh -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h2>Spiti Valley, Himachal Pradesh</h2>
+                <p>Spiti Valley, located in the Himalayas in the north-eastern part of Himachal Pradesh, is known for its stunning landscapes, high mountain passes, and Buddhist monasteries. It is often referred to as "Little Tibet" due to its resemblance to the Tibetan Plateau.</p>
+            </div>
+            <div class="col-md-6 order-md-1">
+                <img src="Images/Spiti Valley, Himachal Pradesh.jpg" alt="Spiti Valley, Himachal Pradesh" class="img-fluid">
+            </div>
+        </div>
+
+        <!-- Content for Great Rann of Cholistan, Rajasthan -->
+        <div class="row mt-4">
+            <div class="col-md-6 order-md-2">
+                <h2>Great Rann of Cholistan, Rajasthan</h2>
+                <p>The Great Rann of Cholistan is a vast desert located in the Thar Desert region of Rajasthan, India, and Punjab, Pakistan. It is characterized by its white salt flats and is renowned for the Rann Utsav, a cultural festival that celebrates the vibrant heritage of the region.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="Images/Great Rann of Cholistan, Rajasthan.jpg" alt="Great Rann of Cholistan, Rajasthan" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">Yatri &copy; 2024</span>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

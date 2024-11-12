@@ -1,0 +1,152 @@
+/* Custom CSS Styles */
+
+body {
+    padding-top: 4.5rem;
+}
+
+.card {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.card-footer {
+    font-size: .875rem;
+}
+
+.pagination {
+    margin-top: 1rem;
+}
+
+/* Additional Styles */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    border-radius: 0;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+/* Custom CSS Styles */
+
+body {
+    padding-top: 4.5rem;
+}
+
+.card {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.card-footer {
+    font-size: .875rem;
+}
+
+.pagination {
+    margin-top: 1rem;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #d2d2d2; /* Cement color */
+}
+
+/* Additional Styles */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    border-radius: 0;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel {
+    width: 1000px; /* Adjust as needed */
+    height: 500px; /* Adjust as needed */
+    margin: auto;
+}
+.carousel-inner {
+    height: 100%;
+}
+.carousel-item {
+    height: 100%;
+}
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+/* Custom CSS for shadow boxes */
+.shadow-box {
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.shadow-box:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+/*LOGIN*/
+
+/*REGISTER*/
